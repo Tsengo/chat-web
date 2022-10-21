@@ -20,6 +20,7 @@ h1,h2,h3,p{
     display: flex;
     flex-direction: row;
 }
+@media only screen and (max-width:1440px){
 body{
     background-image: url(../imgs/Rectangle\ Copy\ 3.png),url(../imgs/Rectangle.png);
     background-repeat: no-repeat;
@@ -275,6 +276,8 @@ body{
     color: #A39DA9;
 }
 
+
+}
 @media only screen and (max-width:376px){
     main{
         display: flex;
